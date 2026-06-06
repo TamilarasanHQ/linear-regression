@@ -27,4 +27,6 @@ for i in cum_month:
     m = n
     monthly_totals.append(round(float(sum),3))
     sum = 0
-print(monthly_totals)
+kernel = np.ones(7)/7
+moving_avg = np.convolve(sales, kernel, mode='valid')
+print(moving_avg)
