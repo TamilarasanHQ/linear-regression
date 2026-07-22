@@ -18,4 +18,4 @@ print("Intercept (b):", b)
 new_x = 5
 predicted_y = m * new_x + b
 print("Predicted score for 5 hours:", predicted_y)
-#checking save functionality!
+#checking save functionality!..
